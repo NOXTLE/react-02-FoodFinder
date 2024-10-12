@@ -1,0 +1,211 @@
+#App{
+ 
+  width: 100vw;
+  background-color:#465362;
+  height: max(100vh);
+}
+#sub-nav{
+  width: 100%;
+  background-color: orange;
+  height:10px;
+}
+#input{
+  
+
+  font-family: "Nunito Sans", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top:40px;
+gap:20px;
+color:rgb(6, 9, 26);
+;
+
+
+}
+#input input{
+  height: 50px;
+  width: 35vw;
+}
+#input button{
+  height: 50px;
+  width: 100px;
+}
+input::placeholder{
+  text-align: center;
+}
+input{
+  padding-left:10px ;
+  background-color:white;
+  border:none;
+  outline: none;
+}
+button{
+  border:none;
+  outline: none;
+  font-family: sans-serif;
+  
+  background-color:#0E1116;
+  color:white;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+
+  font-size: 40px;
+  text-align: center;
+  
+
+}
+input{
+  border-bottom-left-radius:10px;
+  border-top-left-radius:10px;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+font-size: 24px;
+text-align: center;
+
+}
+button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+#comp{
+  display: flex;
+
+}
+#random{
+  display: flex;
+  gap:10px
+  ;
+  background-color: #0E1116;
+  color:white;
+  padding:10px 10px;
+  border-radius: 10px;
+  border:4px solid orange;
+  cursor: pointer;
+}
+#result{
+  margin-top: 20px;
+  width: 100%;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}#result-img{
+  height: 200px;
+ 
+  aspect-ratio: 4 / 3;
+}
+#intro{
+   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+width: max-content;
+padding:20px;
+border:2px solid orange;
+border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.548);
+box-shadow: 2px 1px 15px rgba(75, 74, 74, 0.492);
+}
+#desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ingrediant{
+  margin-top: 50px;
+  width: 80%;
+  
+}
+#ing-card{
+  display: flex;
+  background-color: white;
+  margin:10px 4px;
+  flex-direction: column;
+  align-items: center;
+  padding:10px;
+  border-radius: 20px;
+  gap:3px;
+ 
+
+}
+#ing>*{
+  word-break: break-all;
+  transition: all 1s;
+cursor: pointer;}
+#ing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:20px;
+
+}
+#ing>*:hover{
+  transform: scale(1.2);
+}
+#bold{
+  font-weight: 800;
+}
+#instruction{
+  margin: 0;
+  width: 80%;
+}
+#instruction ul{
+  margin:0;
+  padding: 0;
+
+}
+ul li{
+  margin:0;
+  padding: 0;
+}
+#inst{
+  border:4px solid white;
+  background-color: #FC6E51;
+  color:white;
+  border-radius: 20px;
+  margin-top:20px;
+  padding:20px;
+font-size: 24px;
+
+}
+
+#logo-img{
+  width: 25vw;
+}
+#yt-card{
+  background-color: white;
+  padding: 20px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top:20px;
+  margin-bottom: 20px;
+  transition: all 1s;
+}
+#yt-card:hover{
+  transform: scale(1.1);
+
+}
+@media (max-width:750px) {
+
+  #intro{
+    width: 90vw;
+  }
+  #input input{
+    width: 80%;
+
+  }
+  #input button{
+    width: 20%;
+  }
+  #input h1
+  {
+    font-size: 20px;
+  }
+}
